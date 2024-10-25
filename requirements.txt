@@ -1,0 +1,7 @@
+numpy>=1.19.2
+torch>=1.7.1
+scipy>=1.5.2
+scikit-learn>=0.23.2
+wfdb>=2.1.4
+matplotlib>=3.3.2
+tqdm>=4.51.0
