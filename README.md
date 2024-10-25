@@ -2,12 +2,12 @@
 
 ## Overview
 
-**AtrialFibrillation-Classification-SMoLK** is a deep learning project designed to classify arrhythmias, specifically focusing on atrial fibrillation (Afib), using the MIT-BIH Arrhythmia Database. The project leverages a neural network model with learned filters to achieve high classification accuracy across multiple classes.
+**AtrialFibrillation-Classification-SMoLK** is a deep learning project designed to classify arrhythmias, specifically focusing on atrial fibrillation (Afib), using the MIT-BIH Arrhythmia Database and SMoLK (Sparse Mixture of Learned Kernels). The project leverages a neural network model with learned filters to achieve high classification accuracy across multiple classes.
 
 ## Features
 
 - **Data Loading & Preprocessing**: Efficient handling of the MIT-BIH dataset with resampling and window extraction.
-- **Neural Network Model**: Implementation of the SMoLK (Smoothed Learned Kernel) model with multiple convolutional layers.
+- **Neural Network Model**: Implementation of the SMoLK (Sparse Mixture of Learned Kernels) model with multiple convolutional layers.
 - **Training & Evaluation**: Comprehensive training scripts with cross-validation and holdout set evaluation.
 - **Metrics Calculation**: Detailed metrics including Sensitivity, Specificity, AUC, and F1 Score.
 - **Reproducibility**: Seed setting for consistent results across runs.
