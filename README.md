@@ -75,18 +75,26 @@ python src/evaluate.py
 ## Results
 
 ### Cross-Validation Results
-Class	Sensitivity	Specificity	AUC
-Normal	0.939	0.957	0.988
-Afib	0.869	0.965	0.972
-Other	0.947	0.977	0.993
-F1 Score: 0.825 ± 0.165
+
+| Class  | Sensitivity | Specificity | AUC   |
+|--------|-------------|-------------|-------|
+| Normal | 0.939       | 0.957       | 0.988 |
+| Afib   | 0.869       | 0.965       | 0.972 |
+| Other  | 0.947       | 0.977       | 0.993 |
+
+**F1 Score**: 0.825 ± 0.165
 
 ### Holdout Set Results
-Class	Sensitivity	Specificity	AUC
-Normal	0.939	0.967	0.991
-Afib	0.917	0.965	0.984
-Other	0.955	0.978	0.995
-F1 Score: 0.832 ± 0.160
+
+| Class  | Sensitivity | Specificity | AUC   |
+|--------|-------------|-------------|-------|
+| Normal | 0.939       | 0.967       | 0.991 |
+| Afib   | 0.917       | 0.965       | 0.984 |
+| Other  | 0.955       | 0.978       | 0.995 |
+
+**F1 Score**: 0.832 ± 0.160
 
 ## License
 This project is licensed under the MIT License.
+
+
